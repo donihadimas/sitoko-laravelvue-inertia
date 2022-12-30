@@ -19,6 +19,6 @@ use Inertia\Inertia;
 //     return Inertia::render('Dashboard');
 // });
 
-Route::get('/dashboard', [PagesController::class, 'index']);
+Route::get('/', [PagesController::class, 'index']);
 Route::get('/sales-transaction', [PagesController::class, 'sales_transaction']);
 Route::get('/sales-list', [PagesController::class, 'sales_list']);
