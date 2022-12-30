@@ -1,7 +1,7 @@
 <template>
     <main>
-        <header>
-            <Link href="/dashboard">Dashboard</Link> |
+        <header class="mt-5">
+            <Link href="/">Dashboard</Link> |
             <Link href="/sales-transaction">Transaksi Penjualan</Link> |
             <Link href="/sales-list">Data Transaksi</Link>
         </header>
